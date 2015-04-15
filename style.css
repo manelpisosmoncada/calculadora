@@ -1,0 +1,79 @@
+body {
+	font-family: 'Source Code Pro', sans-serif;
+	font-size: 1.5em;
+	color: #333;
+	font-weight: 400;
+	letter-spacing: -.04em;
+}
+
+h1 {
+	font-size: 1.6em;
+	font-weight: 600;
+	color: #ff8804;
+	margin: auto;
+	text-align: center;
+	padding: .5em;
+}
+
+input[type=text] {
+	width: 200px;
+	background-color: #fff;
+	font-size: .9em;
+	border: 2px solid #ddd;
+	padding: .1em;
+	text-align: right;
+}
+
+input:focus {
+	outline: none !important;
+	border: 1px solid #ff8804;
+	box-shadow: 0 0 5px #ff8804;
+}
+
+input[type=text]:disabled {
+	background-color: #f6f6f6;
+}
+
+table {
+	margin: auto;
+}
+
+tr {
+	width: 100%;
+}
+
+.title {
+	font-weight: 600;
+	height: 2em;
+}
+
+.on-off {
+	background: url(images/on-off.png);
+	background-size: 45px 58px;
+	background-repeat: no-repeat;
+	background-position: 0 2px;
+	cursor: pointer;
+}
+
+.open {
+	background: url(images/on-off.png);
+	background-size: 45px 58px;
+	background-repeat: no-repeat;
+	background-position: 0 -28px;
+	cursor: pointer;
+}
+
+#container {
+	width: 100%;
+	margin: auto;
+}
+
+#table-container {
+	width: 100%;
+	margin: auto;
+	padding-top: 2em;
+}
+
+#fixPayment, #fixCapital {
+	display: inline;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Calculadora</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:400,600' rel='stylesheet' type='text/css'>
+		<script src="http://code.jquery.com/jquery-2.0.0.min.js"></script>
+		<script src="capital.js"></script>
+	</head>
+
+	<body>
+		<div id="container">
+			<h1>Calculadora hipoteca</h1>
+			<h2>calcular <a href="index.html">cuota</a> | capital</h2>
+			<div id="table-container">
+				<table>
+					<tr>
+						<td class="title">Cuota........</td>
+						<td><input id="payment" type="text" value=",00 €" autofocus /></td>
+					</tr>
+					<tr>
+						<td class="title">Interés......</td>
+						<td><input id="interest" type="text" value="2,00 %" /></td>
+					</tr>
+					<tr>
+						<td class="title">Años.........</td>
+						<td><input id="years" type="number" value="30" /></td>
+					</tr>
+					<tr>
+						<td class="title">Capital......</td>
+						<td><input id="capital" type="text" value="100.000,00 €" disabled="disabled" /></td>
+					</tr>
+					<tr>
+						<td class="title">Pago total...</td>
+						<td><input id="total" type="text" value="0,00 €" disabled="disabled" /></td>
+					</tr>
+				</table> 
+			</div>
+		</div>
+	</body>
+
+</html>
